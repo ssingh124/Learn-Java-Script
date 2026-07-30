@@ -11,6 +11,7 @@ document.getElementById("byebtn").addEventListener("click", function () {
 
 });
 
+// ---------Variables ----------//
 
 //Creating Recipe Variables
 
@@ -40,3 +41,61 @@ timeElement.textContent = time + " mins"; // Added text units for clarity
 ratingElement.textContent = "⭐ ".repeat(rating); // Converts the number 5 into 5 stars!
 difficultyElement.textContent = difficultyLevel;
 caloriesElement.textContent = calories + " kcal"; 
+
+
+
+//----------Data Types-----------//
+
+const developerName = "Satnam";
+const age = 25;
+const isLearningJavaScript = true;
+let futureSkill;
+let currentJob = null;
+
+
+document.getElementById("string-output").textContent =
+`String: ${developerName}`;
+
+document.getElementById("number-output").textContent =
+`Number: ${age}`;
+
+document.getElementById("boolean-output").textContent =
+`Boolean: ${isLearningJavaScript}`;
+
+document.getElementById("undefined-output").textContent =
+`Undefined: ${futureSkill}`;
+
+document.getElementById("null-output").textContent =
+`Null: ${currentJob}`;
+
+//--------Operators---------//
+
+const productName = "Laptop";
+
+const price = 999;
+
+let quantity = 2;
+
+const discount = 100;
+
+const subtotal = price * quantity;
+
+const finalPrice = subtotal - discount;
+
+document.getElementById("product-name").textContent =
+`Product: ${productName}`;
+
+document.getElementById("product-price").textContent =
+`Price: $${price}`;
+
+document.getElementById("quantity").textContent =
+`Quantity: ${quantity}`;
+
+document.getElementById("subtotal").textContent =
+`Subtotal: $${subtotal}`;
+
+document.getElementById("discount").textContent =
+`Discount: $${discount}`;
+
+document.getElementById("final-price").textContent =
+`Final Price: $${finalPrice}`;
