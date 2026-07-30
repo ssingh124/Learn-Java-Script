@@ -131,3 +131,21 @@ document.getElementById("check-number")
     }
 
 });
+
+//------------Loops--------//
+
+document.getElementById("print-loop")
+.addEventListener("click", function () {
+
+    const loopNumber = document.getElementById("loop-number").value;
+    const enteredLoopNumber = Number(loopNumber);
+
+    let output = "";
+
+    for (let i = 1; i <= enteredLoopNumber; i++) {
+        output += `${i} `;
+    }
+
+    document.getElementById("result-loop").textContent = output;
+
+});
