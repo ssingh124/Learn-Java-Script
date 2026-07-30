@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, sans-serif;
+  
+    margin-top:80px;
+    background:#f5f5f5;
+    
+}
+
+
+h1{
+    color:blue;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* CSS Section for Header */
+
+header {
+    margin-bottom: 32px;
+      text-align:center;
+}
+
+
+/* CSS Section for Nav */
+
+.nav-list{
+    display:flex;
+    gap:16px;
+    justify-content: center;
+    padding:32px;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.main-nav a{
+    color:black;
+      text-decoration: none;
+    
+      padding:12px 12px;  
+      border: 1px solid black;
+       border-radius: 10px;
+       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+          display: block;
+        transition: background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+  .main-nav a:hover {
+    color: white;
+    background-color:Darkgray;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+       transform: translateY(-4px);
+}
+
+/* CSS Section for Main */
+
+
+
+
+
+.main-section {
+    margin-top:32px;
+  display: flex;
+  flex-direction: column; /* stacks the sections vertically */
+  align-items: center;     /* centers the 70% boxes horizontally */
+  gap: 16px;              /* creates space between the stacked sections */
+  width: 100%;
+}
+
+.lesson-section {
+
+  border: 1px solid black;
+  padding: 32px;
+  box-sizing: border-box; 
+  width: 60%; /* your requested width */
+ text-align: center; 
+}
+
+.example-card
+{
+ 
+ 
+}
+.example-card img{
+    height:200px;
+    width:200px;
+    padding:12px 0;
+}
