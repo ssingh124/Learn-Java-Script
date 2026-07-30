@@ -99,3 +99,35 @@ document.getElementById("discount").textContent =
 
 document.getElementById("final-price").textContent =
 `Final Price: $${finalPrice}`;
+
+//------------Conditions----------//
+
+// Even or Odd Checker
+
+document.getElementById("check-number")
+.addEventListener("click", function(){
+
+    // Get value from input box
+    const number = document.getElementById("number-input").value;
+
+
+    // Convert string into number
+    const enteredNumber = Number(number);
+
+
+    // Check if number is even or odd
+
+    if(enteredNumber % 2 === 0){
+
+        document.getElementById("result").textContent =
+        `${enteredNumber} is an Even Number`;
+
+    }
+    else{
+
+        document.getElementById("result").textContent =
+        `${enteredNumber} is an Odd Number`;
+
+    }
+
+});
