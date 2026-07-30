@@ -172,7 +172,7 @@ document.getElementById("show-message-btn")
 });
 
 
-//-------------FDOM (Document Object Model)-----------//
+//-------------DOM (Document Object Model)-----------//
 
 //--------Change Text
 document.getElementById("change-title-btn")
