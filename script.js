@@ -170,3 +170,33 @@ document.getElementById("show-message-btn")
     showMessage(userName);
 
 });
+
+
+//-------------FDOM (Document Object Model)-----------//
+
+//--------Change Text
+document.getElementById("change-title-btn")
+.addEventListener("click", function () {
+
+   document.getElementById("dom-title").textContent = "Welcome to the DOM Section!";
+
+});
+
+//---------Change Color
+document.getElementById("change-color-btn")
+.addEventListener("click", function () {
+
+   document.getElementById("dom-color").style.color = "blue";;
+
+});
+
+//-------------Change Image 
+document.getElementById("image-btn")
+.addEventListener("click", function () {
+
+    document.getElementById("profile-image").src =
+    "./bulbon.jpeg";
+
+});
+
+
