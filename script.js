@@ -149,3 +149,24 @@ document.getElementById("print-loop")
     document.getElementById("result-loop").textContent = output;
 
 });
+
+//-------------Functions with PERAMETERS-----------//
+
+// Function with a parameter
+function showMessage(name) {
+
+    alert(`Welcome to the website, ${name}!`);
+
+}
+
+// Button click
+document.getElementById("show-message-btn")
+.addEventListener("click", function () {
+
+    // Get the name from the input
+    const userName = document.getElementById("user-name").value;
+
+    // Call the function and pass the name
+    showMessage(userName);
+
+});
